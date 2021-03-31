@@ -1,58 +1,119 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-color: #24252A;
+  background-color: #24252a;
+  font-family: "Montserrat", sans-serif;
 }
 
 :root {
   --primary-color: #ef4444;
 }
 
-li, a {
-  font-family: 'Nunito', sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-  color: #ECF0F1;
-  text-decoration: none;
-  
+html {
+  scroll-behavior: smooth;
 }
 
-header{
+li,
+a {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 10%;
 }
 
-span{
-  letter-spacing:0.6rem;
+header span {
+  letter-spacing: 0.6rem;
   font-size: 25px;
-  color: #ECF0F1;
+  color: #ecf0f1;
   font-weight: bold;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
   cursor: pointer;
 }
 
-.nav-links li{
+.nav-links li {
   display: inline-block;
   padding: 5px 25px;
 }
-.nav-links{
+.nav-links {
   list-style: none;
 }
 
-.nav-links li a{
+.nav-links li a {
   transition: all 0.2s ease 0s;
 }
 
-.nav-links li a:hover{
+.nav-links li a:hover {
   color: var(--primary-color);
 }
 
-.active{
+.active {
   color: var(--primary-color);
+}
+
+.content {
+  color: #9ca3af;
+  font-size: 45px;
+}
+span {
+  color: var(--primary-color);
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 80px;
+  border: 1px solid var(--primary-color);
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  
+}
+#home{
+  margin: 120px 20px;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 100px;
+  margin-bottom: 40px;
+}
+.sub-heading {
+  font-size: 30px;
+  color: #9ca3af;
+}
+
+.contact {
+  color: #9ca3af;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+.icon {
+  
+  display: block;
+  padding-left: 0;
+  margin:0 auto
+  
+}
+
+.icon a:hover {
+  cursor: pointer;
 }
