@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Jost&family=Sanchez&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost&family=Sanchez&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Jost&family=Sanchez&family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost&family=Sanchez&family=Space+Mono&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   background-color: white;
-  font-family: 'Sanchez', serif;
+  font-family: "Sanchez", serif;
   scroll-behavior: smooth;
 }
 
 :root {
   --primary-color: #ef4444;
-  --secondary-color: #F9FAFB;
+  --secondary-color: #f9fafb;
 }
 
 .container-centre {
@@ -28,13 +28,13 @@
   letter-spacing: 5px;
   font-family: "Jost", sans-serif;
   background-color: var(--primary-color);
-  color: #FEE2E2
+  color: #fee2e2;
 }
 
 .header {
   position: fixed;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
   padding: 2rem;
   margin-bottom: 2rem;
@@ -63,18 +63,18 @@
   transition: all 0.2s ease 0s;
 }
 
-.nav-item a:hover{
-  color: #D1D5DB;
+.nav-item a:hover {
+  color: #d1d5db;
 }
 
-.hero-img{
+.hero-img {
   margin: 1rem;
-  max-width:400px;
-  max-height:400px;
+  max-width: 400px;
+  max-height: 400px;
   border-radius: 50%;
 }
-.intro{
-  height:700px;
+.intro {
+  height: 700px;
   margin-top: 120px;
   margin-bottom: 80px;
   display: flex;
@@ -83,58 +83,57 @@
   align-items: center;
 }
 
-.secondary-heading{
-  color: #F87171;
-  font-size:20px;
-  font-family: 'Space Mono', monospace;
+.secondary-heading {
+  color: #f87171;
+  font-size: 20px;
+  font-family: "Space Mono", monospace;
   font-weight: bold;
-  
 }
-.intro h1{
-  font-weight:bolder;
+.intro h1 {
+  font-weight: bolder;
   padding-top: 1.5rem;
 }
 
-.project-box{
+.project-box {
   width: 27%;
   /* border: 1px solid black; */
-  margin:18px;
+  margin: 18px;
   margin-bottom: 15px;
   border-radius: 15px;
-  box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 500px){
-  .project-box{
-    width: 40%;
+@media (max-width: 800px) {
+  .project-box {
+    width: 60%;
     /* border: 1px solid black; */
-    margin:10px;
+    margin: 10px;
     margin-bottom: 15px;
     border-radius: 15px;
-    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
   }
 }
 
-.project-box img{
+.project-box img {
   display: block;
   max-width: 100%;
-  height:60%;
+  height: 60%;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
   /* opacity: 0.8; */
   margin-bottom: 5px;
 }
 
-.projects{
-  display:flex;
+.projects {
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin:2rem;
+  margin: 2rem;
   align-items: center;
   height: 700px;
 }
 
-.nav-heading{
+.nav-heading {
   margin-left: 50px;
   font-weight: bolder;
   text-decoration-line: underline;
@@ -143,32 +142,32 @@
   text-underline-offset: 8px;
 }
 
-
-.button-placement{
+.button-placement {
   padding: 1rem;
-
 }
-.button-placement button{
+.button-placement button {
+  min-width: 100px;
   padding: 5px;
   border-radius: 10px;
   border: 2px solid var(--primary-color);
   color: var(--primary-color);
   font-weight: lighter;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-.button-placement button:hover{
+.button-placement button:hover {
   cursor: pointer;
 }
-.project-box h3{
+.project-box h3 {
   font-weight: bolder;
   padding: 0 1rem;
 }
 
-.project-box h3,span{
-  font-family: 'Poppins', sans-serif;
+.project-box h3,
+span {
+  font-family: "Poppins", sans-serif;
 }
-.project-box span{
-  color: rgba(0,0,0,0.4);
-  font-size:15px;
+.project-box span {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 15px;
   padding: 0 1rem;
 }
